@@ -1,0 +1,6 @@
+In the card class, I initialized each card with a suit and rank. The card class also  includes a compareTo method which compares the suits and ranks of each card to sort them in the game class. Lastly, a toString method printed each card as a string. 
+In the deck class, I created a deck ArrayList of 52 cards. There’s also shuffle and deal methods which shuffles the deck and deals the top card of the deck, respectively. 
+In the player class, I created the player's hand and bankroll, and methods to manipulate them. The winnings and losings methods manipulate the player’s winnings or losings and then updates their bankroll. 
+In the game class, the poker game is played. Two constructors are used: one for the command line and one not. The checkHand method reads the player's hand and determines what the hand is.
+In order to play through the command line, write each hand like such: s1 s13 s12 s11 s10	
+In order to play a normal game of poker, follow these steps: The player bets between 1 and 5 tokens. Then the player will be asked which cards they would like to remove. After, a revised hand is given to the player. Then, the hand is checked and the player wins or loses the proper amount. 
